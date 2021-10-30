@@ -1,0 +1,127 @@
+.slider .track {
+    -fx-background-color: linear-gradient(to left, cyan, magenta);
+    -fx-background-radius: 3px;
+}
+
+.slider .thumb {
+    -fx-background-radius: 3px;
+    -fx-pref-width: 6px;
+    -fx-pref-height: 20px;
+    -fx-background-color: linear-gradient(to top, royalblue, aquamarine);
+}
+
+.button {
+    -fx-background-radius: 3px;
+    -fx-background-color: #121212;
+    -fx-border-color: linear-gradient(to left, cyan, magenta);
+    -fx-border-radius: 50em;
+    -fx-border-width: 1px;
+
+}
+
+.button:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.button:armed {
+    -fx-scale-x:0.98;
+    -fx-scale-y:0.98;
+}
+
+.button .text {
+    -fx-fill: #dedede;
+}
+
+.check-box:determinate .box {
+    -fx-background-color: linear-gradient(to top left, cyan, magenta);
+    -fx-background-radius: 3px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-background-color: linear-gradient(to top, cyan, magenta);
+}
+
+.scroll-pane .scroll-bar:horizontal .thumb {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-background-color: linear-gradient(to right, cyan, magenta);
+}
+
+.scroll-pane .scroll-bar:vertical .track,.track-background {
+    -fx-background-color: #121212;
+}
+
+.scroll-pane .scroll-bar:horizontal .track,.track-background {
+    -fx-background-color: #121212;
+}
+
+.scroll-pane .corner {
+    -fx-background-color: #121212;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #121212;
+}
+.scroll-pane {
+    -fx-background-color: #121212;
+}
+
+Pane {
+    -fx-background-color: #121212;
+}
+
+.image-view {
+    -fx-background-color: #121212;
+}
+
+Canvas {
+    -fx-background-color: red;
+}
+
+.color-picker {
+    -fx-background-color: #121212;
+    -fx-border-radius: 50%;
+    -fx-border-color: linear-gradient(to right, cyan, magenta);
+}
+
+.color-picker .color-picker-label .text{
+    -fx-fill: #dedede;
+}
+
+
+.menu-bar {
+    -fx-background-color: #121212;
+    -fx-fill: #dedede;
+}
+
+
+.menu-bar .container .menu:openvertically .label .text{
+    -fx-background-color: #121212;
+    -fx-fill: #dedede;
+}
+
+.menu-bar .container .menu:openvertically {
+    -fx-background-color: #121212;
+    -fx-border-radius: 50%;
+    -fx-border-color: #121212;
+    -fx-border-width: 2px;
+}
+
+.menu-bar .container .menu:openvertically:hover {
+    -fx-border-color: linear-gradient(to right, cyan, magenta);
+}
+
+.menu-mine, .menu-item {
+    -fx-background-color: #121212;
+}
+
+.menu-bar > * {
+    -fx-background-color: #121212;
+}
